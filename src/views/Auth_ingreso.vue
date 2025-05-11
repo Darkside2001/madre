@@ -21,10 +21,12 @@
             </div>
             <div v-else-if="step === 3">
               <h2 class="text-2xl sm:text-xl font-bold text-pink-100 mb-4">🌷 Feliz Día de la Madre 🌷</h2>
+              <p class="text-xl italic mb-2">“La única capaz de levantarse como si nada, después de haber estado el dia anterior derrotada.”</p>
               <img :src="image1" alt="Regalo" class="w-full max-w-xs mx-auto mb-4 rounded shadow" />
             </div>
             <div v-else-if="step === 4">
               <h2 class="text-2xl sm:text-xl font-bold text-pink-100 mb-4">🌷 Feliz Día de la Madre 🌷</h2>
+              <p class="text-xl italic mb-2">“La única que me quiso antes de conocerme”</p>
               <img :src="image2" alt="Regalo" class="w-full max-w-xs mx-auto mb-4 rounded shadow" />
             </div>
             <div v-else-if="step === 5">
