@@ -35,7 +35,7 @@ export default defineConfig({
     logLevel: "error",
     hmr: process.env.NODE_ENV === "development",
   },
-  base: "./",
+  base: "https://Darkside2001.github.io/madre",
   define: {
     "process.env.VUE_APP_URL_AXIOS": JSON.stringify(process.env.VUE_APP_URL_AXIOS),
     "process.env.VUE_APP_URL_APLICATIVO_INCENTIVO": JSON.stringify(process.env.VUE_APP_URL_APLICATIVO_INCENTIVO),
