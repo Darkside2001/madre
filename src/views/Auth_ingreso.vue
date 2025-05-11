@@ -39,7 +39,7 @@
               <div class="flex justify-center items-center">
                 <div class="heart animate-pulse mt-4"></div>
               </div>
-              <p class="mt-4 font-semibold">¡Nuestro corazón late por ti!</p>
+              <!-- <p class="mt-4 font-semibold">¡Nuestro corazón late por ti!</p> -->
             </div>
           </div>
         </transition>
